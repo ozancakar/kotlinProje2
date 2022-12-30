@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="300dp"
+    android:background="#00BCD4"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Çıkış Yapmak İçin Bilgilerinizi Tekrar Giriniz"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="İsminizi Giriniz"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="300dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Şifrenizi Giriniz"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:text="TextView"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
